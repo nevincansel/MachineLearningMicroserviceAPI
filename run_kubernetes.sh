@@ -4,15 +4,16 @@
 
 # Step 1:
 # This is your Docker ID/path
-# dockerpath=<>
+export dockerpath=udacityproject3
 
 # Step 2
-# Run the Docker Hub container with kubernetes
+kubectl run --image=$dockerpath:latest --port=80 udacityproject3
 
 
 # Step 3:
-kubectl get nodes
+# List kubernetes pods
+kubectl get pods
 
 # Step 4:
-# Forward the container port to a host
+kubectl port-forward udacityproject3 8000:80
 
