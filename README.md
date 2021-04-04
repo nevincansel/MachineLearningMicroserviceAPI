@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![nevincansel](https://circleci.com/gh/nevincansel/MachineLearningMicroserviceAPI.svg?style=svg)](https://circleci.com/gh/nevincansel/MachineLearningMicroserviceAPI)
 
 ## Project Overview
 
