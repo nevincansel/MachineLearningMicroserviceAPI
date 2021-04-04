@@ -1,4 +1,4 @@
-[![nevincansel](https://app.circleci.com/pipelines/github/nevincansel/MachineLearningMicroserviceAPI.svg?style=svg)](https://app.circleci.com/pipelines/github/nevincansel/MachineLearningMicroserviceAPI)
+[![nevincansel](https://circleci.com/gh/nevincansel/MachineLearningMicroserviceAPI.svg?style=svg)](https://circleci.com/gh/nevincansel/MachineLearningMicroserviceAPI)
 
 ## Project Overview
 
