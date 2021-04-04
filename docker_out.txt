@@ -1,31 +1,49 @@
-[2021-04-04 07:30:59,747] INFO in app: JSON payload:
+* Serving Flask app "app" (lazy loading)
+
+* Environment: production
+
+WARNING: This is a development server. Do not use it in a production deployment.
+
+Use a production WSGI server instead.
+
+* Debug mode: on
+
+* Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+
+* Restarting with stat
+
+* Debugger is active!
+
+* Debugger PIN: 243-444-293
+
+[2021-04-04 10:31:29,599] INFO in app: JSON payload:
 
 {'CHAS': {'0': 0}, 'RM': {'0': 6.575}, 'TAX': {'0': 296.0}, 'PTRATIO': {'0': 15.3}, 'B': {'0': 396.9}, 'LSTAT': {'0': 4.98}}
 
-[2021-04-04 07:30:59,769] INFO in app: Inference payload DataFrame:
+[2021-04-04 10:31:29,625] INFO in app: Inference payload DataFrame:
 
 CHAS RM TAX PTRATIO B LSTAT
 
 0 0 6.575 296.0 15.3 396.9 4.98
 
-[2021-04-04 07:30:59,779] INFO in app: Scaling Payload:
+[2021-04-04 10:31:29,634] INFO in app: Scaling Payload:
 
 CHAS RM TAX PTRATIO B LSTAT
 
 0 0 6.575 296.0 15.3 396.9 4.98
 
-[2021-04-04 07:30:59,781] INFO in app: line 18 scaler :
+[2021-04-04 10:31:29,637] INFO in app: line 18 scaler :
 
 StandardScaler(copy=True, with_mean=True, with_std=True)
 
-[2021-04-04 07:30:59,783] INFO in app: line 20 scaled_adhoc_predict:
+[2021-04-04 10:31:29,639] INFO in app: line 20 scaled_adhoc_predict:
 
 [[0. 0. 0. 0. 0. 0.]]
 
-[2021-04-04 07:30:59,784] INFO in app: line 65 scaled_payload:
+[2021-04-04 10:31:29,639] INFO in app: line 65 scaled_payload:
 
 [[0. 0. 0. 0. 0. 0.]]
 
-[2021-04-04 07:30:59,785] INFO in app: prediction: [20.35373177134412]
+[2021-04-04 10:31:29,640] INFO in app: prediction: [20.35373177134412]
 
-172.17.0.1 - - [04/Apr/2021 07:30:59] "POST /predict HTTP/1.1" 200 -
+172.17.0.1 - - [04/Apr/2021 10:31:29] "POST /predict HTTP/1.1" 200 -
